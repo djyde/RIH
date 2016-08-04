@@ -1,0 +1,49 @@
+{
+  "name": "rih",
+  "version": "0.1.0",
+  "description": "Resource in Hand",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --config build/webpack.config.base.js",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djyde/RIH.git"
+  },
+  "keywords": [
+    "images",
+    "electron",
+    "organize"
+  ],
+  "author": "Randy Lu <randypriv@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djyde/RIH/issues"
+  },
+  "homepage": "https://github.com/djyde/RIH#readme",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-runtime": "^6.11.6",
+    "css-loader": "^0.23.1",
+    "electron": "^1.3.2",
+    "eslint": "^3.2.2",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "vue": "^1.0.26",
+    "vue-hot-reload-api": "^1.3.3",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.3",
+    "vue-router": "^0.7.13",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
