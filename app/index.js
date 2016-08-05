@@ -10,6 +10,14 @@ const router = new VueRouter()
 router.map({
   '/': {
     component: require('./Home.vue')
+  },
+  '/folders/:id': {
+    name: 'folders',
+    component: require('./Folders.vue')
+  },
+  '/tags/:id': {
+    name: 'tags',
+    component: require('./Tags.vue')
   }
 })
 

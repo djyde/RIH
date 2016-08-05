@@ -1,3 +1,3 @@
 <template lang="jade">
-h1 welcome to RIH
+h1 tags
 </template>
