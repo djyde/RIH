@@ -13,8 +13,4 @@ router.map({
   }
 })
 
-console.log('??')
-
 router.start(App, '#app')
-
-console.log('??')

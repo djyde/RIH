@@ -22,5 +22,11 @@ module.exports = {
         }
       }
     ]
+  },
+  vue: {
+    postcss: [
+      require('postcss-import'),
+      require('postcss-cssnext')
+    ]
   }
 }
