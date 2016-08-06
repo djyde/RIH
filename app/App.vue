@@ -109,5 +109,6 @@ body {
   flex: 4;
   align-items: stretch;
   background-color: #232323;
+  overflow: scroll;
 }
 </style>

@@ -3,9 +3,11 @@ const { app, BrowserWindow } = require('electron')
 let win
 
 function createWindow() {
-  win = new BrowserWindow({ width: 800, height: 600, titleBarStyle: 'hidden' })
+  win = new BrowserWindow({ width: 800, height: 600, titleBarStyle: 'hidden', webSecurity: false })
 
-  win.loadURL(process.env.NODE_ENV === 'prod' ? `file://${__dirname}/index.html` : 'http://localhost:8080/')
+  // win.loadURL(process.env.NODE_ENV === 'prod' ? `file://${__dirname}/index.html` : 'http://localhost:8080/')
+
+  win.loadURL(`file://${__dirname}/index.html`)
 
   win.webContents.openDevTools()
 
